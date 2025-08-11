@@ -10,4 +10,12 @@ You should organise them by tube line (i.e. which colour you want that run plott
 
 <img width="501" height="316" alt="image" src="https://github.com/user-attachments/assets/8a7ca9ee-344d-49d1-8eda-ca936f1a8fb9" />
 
+Try and keep the folder names the same as in my example so the code doesn't break :-)
 I also put them all into an 'all' folder as well for versatility when I was messing around with plotting.
+
+# Running the code
+I've provided the code as a jupyter notebook, but it can be easily changed to a python fit. Your python environment will need jupyter (if using), numpy, matplotlib and a library called fitdecode (https://pypi.org/project/fitdecode/) which reads the files. 
+
+To run the jupyter notebook, just put it into the same folder as you have the line name subfolders where you've saved all the files and run each cell. If you uncomment (delete the # from) "#plt.savefig('runderground.png', dpi=600)" it should save as a png for you.
+
+Drop me a message if you need a hand getting the code running!!
